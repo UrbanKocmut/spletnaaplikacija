@@ -1,7 +1,16 @@
 import './App.css';
-import {Box, Heading, Container} from "@chakra-ui/react"
+import {Box, Heading, Container,Text} from "@chakra-ui/react"
+import {useEffect, useState} from "react"
 
 export default function Quote() {
+
+    const [quote, setQuote]  = useState({author: '', quote: ''});
+
+
+    useEffect(() => {
+        setQuote(quotes[Math.floor(Math.random()*quotes.length)])
+        // eslint-disable-next-line
+    },[]);
 
     const quotes = [
         {
@@ -22,8 +31,11 @@ export default function Quote() {
         <Container>
             <Box>
                 <Heading>
-                    {quotes[Math.floor(Math.random())*quotes.length].quote}
+                    {quote.quote}
                 </Heading>
+                <Text>
+                    {quote.author}
+                </Text>
             </Box>
         </Container>
     );

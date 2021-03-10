@@ -1,7 +1,7 @@
 import './App.css';
 import PropTypes from "prop-types";
 import {useState} from "react";
-import { Input,Container,Button,Box,Flex } from "@chakra-ui/react"
+import { Input,Button,Box,Flex } from "@chakra-ui/react"
 
 export default function App(props, state) {
 
@@ -18,15 +18,14 @@ export default function App(props, state) {
     }
 
     return (
-        <Container>
             <Box  w="100%" p={4}>
                 {name}
+
+                <Flex>
+                    <Input onChange={inputChanged} placeholder="Basic usage" />
+                    <Button marginLeft={2} onClick={changeName} colorScheme="blue">Button</Button>
+                </Flex>
             </Box>
-            <Flex>
-                <Input onChange={inputChanged} placeholder="Basic usage" />
-                <Button marginLeft={2} onClick={changeName} colorScheme="blue">Button</Button>
-            </Flex>
-        </Container>
     );
 }
 
