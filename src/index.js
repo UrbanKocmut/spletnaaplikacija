@@ -1,9 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import {ChakraProvider, Divider,Container} from "@chakra-ui/react"
-import Quote from "./Quote";
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 
 
