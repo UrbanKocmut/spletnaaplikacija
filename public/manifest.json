@@ -18,7 +18,7 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": ".",
+  "start_url": "https://urbankocmut.github.io/spletnaaplikacija/",
   "display": "standalone",
   "theme_color": "#00ff00",
   "background_color": "#ff0000"
