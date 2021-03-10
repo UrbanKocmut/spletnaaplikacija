@@ -20,7 +20,6 @@ script:
 
 deploy:
   provider: pages
-  project_name: spletnaaplikacija
   skip_cleanup: true
   github_token: $GITHUB_TOKEN
   keep_history: true
