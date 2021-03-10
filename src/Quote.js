@@ -6,26 +6,22 @@ export default function Quote() {
 
     const [quote, setQuote]  = useState({author: '', quote: ''});
 
+    //
+    // useEffect(() => {
+    //     setQuote(quotes[Math.floor(Math.random()*quotes.length)])
+    //     // eslint-disable-next-line
+    // },[]);
 
     useEffect(() => {
-        setQuote(quotes[Math.floor(Math.random()*quotes.length)])
-        // eslint-disable-next-line
-    },[]);
+        fetch('http://api.quotable.io/random')
+            .then(resp => resp.json())
+            .then(jsonObj => setQuote({
+                author:jsonObj.author,
+                quote:jsonObj.content,
+            }))
+            .catch((errr) => console.error("Error: "+errr));
 
-    const quotes = [
-        {
-            author: "Janez",
-            quote: "Jaz sem Janez."
-        },
-        {
-            author: "Matjaž",
-            quote: "Jaz sem Matjaž."
-        },
-        {
-            author: "Miran",
-            quote: "Jaz sem Miran."
-        }
-    ];
+    }, []);
 
     return (
         <Container>
