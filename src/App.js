@@ -24,6 +24,7 @@ export default function App(props, state) {
         let storedNames = JSON.parse(localStorage.getItem('names'))
         storedNames.push(input)
         localStorage.setItem('names', JSON.stringify(storedNames));
+        console.log(storedNames)
         setNames(storedNames)
     }
 
