@@ -6,11 +6,6 @@ export default function Quote() {
 
     const [quote, setQuote]  = useState({author: '', quote: ''});
 
-    //
-    // useEffect(() => {
-    //     setQuote(quotes[Math.floor(Math.random()*quotes.length)])
-    //     // eslint-disable-next-line
-    // },[]);
 
     useEffect(() => {
         fetch('http://api.quotable.io/random')
