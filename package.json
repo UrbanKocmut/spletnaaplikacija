@@ -2,6 +2,7 @@
   "name": "spletnaaplikacija",
   "version": "1",
   "private": true,
+  "homepage": "https://urbankocmut.github.io/spletnaaplikacija/",
   "dependencies": {
     "@chakra-ui/react": "^1.3.4",
     "@emotion/react": "^11.1.5",
