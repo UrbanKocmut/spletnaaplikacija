@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/spletnaaplikacija/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/spletnaaplikacija/static/js/main.60d99723.chunk.js",
-    "main.js.map": "/spletnaaplikacija/static/js/main.60d99723.chunk.js.map",
+    "main.css": "/spletnaaplikacija/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/spletnaaplikacija/static/js/main.a4923203.chunk.js",
+    "main.js.map": "/spletnaaplikacija/static/js/main.a4923203.chunk.js.map",
     "runtime-main.js": "/spletnaaplikacija/static/js/runtime-main.0551320f.js",
     "runtime-main.js.map": "/spletnaaplikacija/static/js/runtime-main.0551320f.js.map",
-    "static/js/2.3e8939a9.chunk.js": "/spletnaaplikacija/static/js/2.3e8939a9.chunk.js",
-    "static/js/2.3e8939a9.chunk.js.map": "/spletnaaplikacija/static/js/2.3e8939a9.chunk.js.map",
+    "static/js/2.7edd2d54.chunk.js": "/spletnaaplikacija/static/js/2.7edd2d54.chunk.js",
+    "static/js/2.7edd2d54.chunk.js.map": "/spletnaaplikacija/static/js/2.7edd2d54.chunk.js.map",
     "index.html": "/spletnaaplikacija/index.html",
     "service-worker.js": "/spletnaaplikacija/service-worker.js",
     "service-worker.js.map": "/spletnaaplikacija/service-worker.js.map",
-    "static/css/main.6dea0f05.chunk.css.map": "/spletnaaplikacija/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.3e8939a9.chunk.js.LICENSE.txt": "/spletnaaplikacija/static/js/2.3e8939a9.chunk.js.LICENSE.txt"
+    "static/css/main.8c8b27cf.chunk.css.map": "/spletnaaplikacija/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.7edd2d54.chunk.js.LICENSE.txt": "/spletnaaplikacija/static/js/2.7edd2d54.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.0551320f.js",
-    "static/js/2.3e8939a9.chunk.js",
-    "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.60d99723.chunk.js"
+    "static/js/2.7edd2d54.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.a4923203.chunk.js"
   ]
 }
